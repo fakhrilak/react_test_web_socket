@@ -1,0 +1,28 @@
+.Container-Kontak h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Container-Kontak{
+    width: 100%;
+    border: 1px solid white
+}
+.section {
+    display: grid;
+    grid-template-columns: 80px 1fr 50px;
+    grid-template-rows: 40px 40px;
+    grid-template-areas: 
+    "avator cname time-stamp"
+    "avator cmsg time-stamp";
+}
+
+.Kontak{
+    background-color: #cfa61d;
+    height:50px;
+    width: 100%;
+}
+.Container-Chat{
+    display:grid;
+    grid-template-columns: 10% 80%;
+    background-color:black;
+    gap: 1rem;
+    border: 1px solid white
+}
